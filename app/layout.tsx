@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "一字不打 - Easy Input",
+  title: "Easy Input — 一字不打",
   description: "重复输入不用本人到场。Easy Input 把常用短语、模板片段和快捷动作放进你的输入层。",
 };
 

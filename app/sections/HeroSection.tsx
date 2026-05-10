@@ -57,24 +57,12 @@ export default function HeroSection() {
           <div className="absolute inset-0 scale-150 rounded-full pointer-events-none"
             style={{ background: 'radial-gradient(circle, rgba(139,92,246,0.20) 0%, rgba(20,230,209,0.10) 40%, transparent 70%)' }}
           />
-          <svg viewBox="0 0 180 180" fill="none" className="relative w-40 h-40 md:w-52 md:h-52 drop-shadow-[0_0_40px_rgba(139,92,246,0.3)]">
-            <rect width="180" height="180" rx="40" fill="url(#g1)" />
-            <path d="M90 55c-15 0-27 10-27 25 0 8 3 15 8 20v12c0 2 1.5 3.5 3.5 3.5s3.5-1.5 3.5-3.5v-2h12v2c0 2 1.5 3.5 3.5 3.5s3.5-1.5 3.5-3.5v-12c5-5 8-12 8-20 0-15-12-25-27-25z" fill="white" />
-            <circle cx="84" cy="88" r="3" fill="#0a0a0a" />
-            <circle cx="96" cy="88" r="3" fill="#0a0a0a" />
-            <path d="M90 102c-4 0-7-2-7-2s2 5 7 5 7-5 7-5-3 2-7 2z" fill="rgba(139,92,246,0.5)" />
-            <defs><linearGradient id="g1" x1="0" y1="0" x2="180" y2="180" gradientUnits="userSpaceOnUse"><stop stopColor="#8b5cf6" /><stop offset="1" stopColor="#14e6d1" /></linearGradient></defs>
-          </svg>
+          <img src="/easyinput_landing_page/Hero图.png" alt="Easy Input" className="relative w-40 h-40 md:w-52 md:h-52 object-contain drop-shadow-[0_0_40px_rgba(139,92,246,0.3)]" />
         </div>
-
-        {/* Eyebrow */}
-        <p className="text-[#14e6d1] text-sm font-mono tracking-widest mb-3 animate-fade-in-up" style={{ animationDelay: '0.05s' }}>
-          Easy Input 现在叫「一字不打」
-        </p>
 
         {/* Title */}
         <h1 className="text-4xl md:text-5xl font-bold tracking-tight text-gradient-heading mb-4 text-center animate-fade-in-up" style={{ animationDelay: '0.1s' }}>
-          一字不打，<br className="md:hidden" />话也能说完。
+          Easy Input，<br className="md:hidden" />一字不打。
         </h1>
 
         {/* Subtitle */}

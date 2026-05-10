@@ -30,13 +30,8 @@ export default function Navbar() {
     >
       <div className="max-w-[1100px] mx-auto flex items-center justify-between h-14 px-6">
         <a href="#" className="flex items-center gap-2.5 text-[#f5f5f5] font-semibold text-base">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#14e6d1" strokeWidth="1.5">
-            <path d="M12 2a8 8 0 0 0-8 8v12l3-3 2.5 2.5L12 19l2.5 2.5L17 19l3 3V10a8 8 0 0 0-8-8z" />
-            <path d="M9 10h.01" />
-            <path d="M15 10h.01" />
-          </svg>
-          <span>一字不打</span>
-          <span className="text-[#5c5f66] text-xs font-normal hidden sm:inline">Easy Input</span>
+          <img src="/easyinput_landing_page/左上角.png" alt="Easy Input" className="h-8 w-auto" />
+          <span>Easy Input</span>
         </a>
 
         <div className="hidden md:flex items-center gap-8 text-[13px] text-[#8a8a8a]">

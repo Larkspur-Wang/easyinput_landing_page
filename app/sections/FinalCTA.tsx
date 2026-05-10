@@ -6,11 +6,11 @@ export default function FinalCTA() {
       <div className="py-24 px-6">
         <div className="max-w-[1100px] mx-auto flex flex-col items-center text-center">
           <div className="reveal">
-            <p className="text-[#5c5f66] text-xs font-mono tracking-widest uppercase mb-4">准备好了？</p>
+            <p className="text-[#8e96a6] text-xs font-mono tracking-widest uppercase mb-4">准备好了？</p>
             <h2 className="text-3xl md:text-4xl font-semibold tracking-tight text-gradient-heading mb-3">
               从今天开始，<br className="md:hidden" />一字不打。
             </h2>
-            <p className="text-[#8a8a8a] text-sm mb-8 max-w-md">
+            <p className="text-[#b6bcc8] text-sm mb-8 max-w-md">
               该说的话一句不少，该敲的字一个不敲。<br />
               把重复输入交给 Easy Input。
             </p>
@@ -28,15 +28,13 @@ export default function FinalCTA() {
                   开始不打字
                 </a>
                 <a
-                  href="https://github.com/Larkspur-Wang/easyinput_landing_page"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  href="#features"
                   className="px-8 py-3 rounded-full border border-[rgba(255,255,255,0.2)] text-[#f5f5f5] font-medium text-sm hover:bg-white/5 transition-all whitespace-nowrap text-center inline-flex items-center gap-2"
                 >
-                  去 GitHub 看看
+                  看看它怎么替我打
                 </a>
               </div>
-              <p className="text-xs text-[#5c5f66] mt-4">重复输入不用本人到场。</p>
+              <p className="text-xs text-[#8e96a6] mt-4">重复输入不用本人到场。</p>
             </div>
           </div>
         </div>

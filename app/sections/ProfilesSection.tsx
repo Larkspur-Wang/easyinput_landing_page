@@ -45,7 +45,7 @@ export default function ProfilesSection() {
         <div className="reveal">
           <p className="text-[#8b5cf6] text-sm font-mono tracking-widest uppercase mb-3">使用场景</p>
           <h2 className="text-3xl md:text-4xl font-bold text-[#f5f5f5] mb-4">不同精神状态，同一套解法</h2>
-          <p className="text-[#8a8a8a] text-lg max-w-2xl mx-auto">
+          <p className="text-[#b6bcc8] text-lg max-w-2xl mx-auto">
             不管是哪个工位，重复输入都不该亲自打。
           </p>
         </div>
@@ -60,7 +60,7 @@ export default function ProfilesSection() {
             className={`px-5 py-2 rounded-full border text-sm font-medium transition-all ${
               activeProfile === p.name
                 ? 'border-[#8b5cf6] text-[#8b5cf6] bg-[#8b5cf6]/10'
-                : 'border-[rgba(255,255,255,0.12)] text-[#8a8a8a] hover:border-[rgba(255,255,255,0.25)]'
+                : 'border-[rgba(255,255,255,0.12)] text-[#b6bcc8] hover:border-[rgba(255,255,255,0.25)]'
             }`}
           >
             {p.name}
@@ -71,7 +71,7 @@ export default function ProfilesSection() {
       {/* Active profile card */}
       <div className="reveal max-w-2xl mx-auto rounded-xl border border-[rgba(255,255,255,0.12)] bg-[#0a0a0a] p-8 text-center">
         <h3 className="text-xl font-semibold text-[#f5f5f5] mb-2">{current?.title}</h3>
-        <p className="text-[#8a8a8a] text-sm leading-relaxed">{current?.desc}</p>
+        <p className="text-[#b6bcc8] text-sm leading-relaxed">{current?.desc}</p>
       </div>
     </section>
   );

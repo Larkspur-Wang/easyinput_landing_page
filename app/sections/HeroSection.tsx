@@ -57,19 +57,18 @@ export default function HeroSection() {
           <div className="absolute inset-0 scale-150 rounded-full pointer-events-none"
             style={{ background: 'radial-gradient(circle, rgba(139,92,246,0.20) 0%, rgba(20,230,209,0.10) 40%, transparent 70%)' }}
           />
-          <img src="/easyinput_landing_page/Hero图.png" alt="Easy Input" className="relative w-40 h-40 md:w-52 md:h-52 object-contain drop-shadow-[0_0_40px_rgba(139,92,246,0.3)]" />
+          <img src="/easyinput_landing_page/Hero图.png" alt="Easy Input" className="relative w-44 h-44 md:w-60 md:h-60 object-contain drop-shadow-[0_0_40px_rgba(139,92,246,0.3)]" />
         </div>
 
         {/* Title */}
         <h1 className="text-4xl md:text-5xl font-bold tracking-tight text-gradient-heading mb-4 text-center animate-fade-in-up" style={{ animationDelay: '0.1s' }}>
-          Easy Input，<br className="md:hidden" />一字不打。
+          一字不打，<br className="md:hidden" />话也能说完。
         </h1>
 
         {/* Subtitle */}
-        <p className="text-sm md:text-base text-[#8a8a8a] text-center mb-4 max-w-lg tracking-wide animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
-          我不是不会打字，是这点破字不配我亲自打。<br className="hidden md:block" />
-          把常用短语、模板片段和快捷动作放进你的输入层。<br />
-          重复的话，一键上屏。
+        <p className="text-sm md:text-base text-[#b6bcc8] text-center mb-4 max-w-xl tracking-wide animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
+          我不是不会打字，是这点破字不配我亲自打。<br />
+          Easy Input 把常用短语、模板片段和快捷动作放进你的输入层。
         </p>
 
         {/* Terminal */}
@@ -100,18 +99,18 @@ export default function HeroSection() {
           </a>
         </div>
 
-        <p className="text-xs text-[#5c5f66] mt-4 animate-fade-in-up" style={{ animationDelay: '0.5s' }}>
-          开源 / 本地优先 / 快捷唤起 / 跨应用输入
+        <p className="text-xs text-[#8e96a6] mt-4 animate-fade-in-up" style={{ animationDelay: '0.5s' }}>
+          本地优先 / 快捷唤起 / 跨应用输入
         </p>
 
         {/* Trust line */}
-        <p className="text-sm text-[#8a8a8a] mt-8 italic animate-fade-in-up" style={{ animationDelay: '0.6s' }}>
+        <p className="text-sm text-[#b6bcc8] mt-8 italic animate-fade-in-up" style={{ animationDelay: '0.6s' }}>
           重复输入不用本人到场。
         </p>
       </div>
 
       {/* Scroll indicator */}
-      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 text-[#5c5f66] text-xs animate-bounce-slow">
+      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 text-[#8e96a6] text-xs animate-bounce-slow">
         ↓
       </div>
     </section>

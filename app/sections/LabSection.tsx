@@ -5,9 +5,9 @@ export default function LabSection() {
     <section id="ai" className="relative py-24 px-6">
       <div className="max-w-[1100px] mx-auto">
         <div className="reveal text-center mb-12">
-          <span className="font-mono text-xs uppercase tracking-[0.2em] text-[#5c5f66] mb-4 block">LAB</span>
+          <span className="font-mono text-xs uppercase tracking-[0.2em] text-[#8e96a6] mb-4 block">LAB</span>
           <h2 className="text-3xl md:text-4xl font-bold mb-4 text-gradient-heading">不打字实验室</h2>
-          <p className="text-[#8a8a8a] max-w-xl mx-auto">
+          <p className="text-[#b6bcc8] max-w-xl mx-auto">
             我们认真研究：到底还有哪些字，可以不由本人亲自打。
           </p>
         </div>
@@ -26,7 +26,7 @@ export default function LabSection() {
                 </svg>
               </div>
               <h3 className="text-xl font-semibold text-[#f5f5f5] mb-2">自动补全片段</h3>
-              <p className="text-[#8a8a8a] text-sm leading-relaxed mb-4">
+              <p className="text-[#b6bcc8] text-sm leading-relaxed mb-4">
                 输入几个关键词，自动找到你可能想插入的片段。
               </p>
               <span className="inline-block text-xs font-mono text-[#8b5cf6] px-2 py-1 rounded border border-[#8b5cf6]/30">
@@ -48,7 +48,7 @@ export default function LabSection() {
                 </svg>
               </div>
               <h3 className="text-xl font-semibold text-[#f5f5f5] mb-2">上下文动作</h3>
-              <p className="text-[#8a8a8a] text-sm leading-relaxed mb-4">
+              <p className="text-[#b6bcc8] text-sm leading-relaxed mb-4">
                 根据当前输入场景，推荐回复、格式化、翻译或总结动作。
               </p>
               <span className="inline-block text-xs font-mono text-[#14e6d1] px-2 py-1 rounded border border-[#14e6d1]/30">
@@ -70,7 +70,7 @@ export default function LabSection() {
                 </svg>
               </div>
               <h3 className="text-xl font-semibold text-[#f5f5f5] mb-2">个人话术库</h3>
-              <p className="text-[#8a8a8a] text-sm leading-relaxed mb-4">
+              <p className="text-[#b6bcc8] text-sm leading-relaxed mb-4">
                 把你常用的表达沉淀下来，形成自己的输入风格。
               </p>
               <span className="inline-block text-xs font-mono text-[#f5f5f5] px-2 py-1 rounded border border-[rgba(255,255,255,0.2)]">

@@ -89,7 +89,7 @@ export default function FeatureGridSection() {
     <section className="relative py-32 px-6">
       <div className="max-w-[1100px] mx-auto">
         <div className="reveal mb-16">
-          <p className="text-[#5c5f66] text-xs font-mono tracking-widest uppercase mb-3">还有更多</p>
+          <p className="text-[#8e96a6] text-xs font-mono tracking-widest uppercase mb-3">还有更多</p>
           <h2 className="text-3xl md:text-4xl font-semibold tracking-tight text-gradient-heading mb-4">
             输入这件小事，少烦你一点
           </h2>
@@ -103,7 +103,7 @@ export default function FeatureGridSection() {
             >
               {feature.icon}
               <h3 className="text-base font-semibold text-[#f5f5f5]">{feature.title}</h3>
-              <p className="text-[#8a8a8a] text-sm leading-relaxed">{feature.desc}</p>
+              <p className="text-[#b6bcc8] text-sm leading-relaxed">{feature.desc}</p>
             </div>
           ))}
         </div>

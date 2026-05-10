@@ -15,8 +15,8 @@ export default function Navbar() {
 
   const navLinks = [
     { label: '怎么替我打', href: '#features' },
+    { label: '片段库', href: '#mockup' },
     { label: '使用场景', href: '#profiles' },
-    { label: 'GitHub', href: 'https://github.com/Larkspur-Wang/easyinput_landing_page' },
     { label: '下载', href: '#download' },
   ];
 
@@ -29,12 +29,11 @@ export default function Navbar() {
       }`}
     >
       <div className="max-w-[1100px] mx-auto flex items-center justify-between h-14 px-6">
-        <a href="#" className="flex items-center gap-2.5 text-[#f5f5f5] font-semibold text-base">
-          <img src="/easyinput_landing_page/左上角.png" alt="Easy Input" className="h-8 w-auto" />
-          <span>Easy Input</span>
+        <a href="#" aria-label="Easy Input" className="flex items-center">
+          <img src="/easyinput_landing_page/左上角.png" alt="Easy Input" className="h-9 w-auto max-w-[148px] object-contain" />
         </a>
 
-        <div className="hidden md:flex items-center gap-8 text-[13px] text-[#8a8a8a]">
+        <div className="hidden md:flex items-center gap-8 text-[13px] text-[#b6bcc8]">
           {navLinks.map((link) => (
             <a
               key={link.href}

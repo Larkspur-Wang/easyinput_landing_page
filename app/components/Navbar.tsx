@@ -14,9 +14,9 @@ export default function Navbar() {
   }, []);
 
   const navLinks = [
-    { label: '功能', href: '#features' },
-    { label: '输入模式', href: '#inject' },
-    { label: 'AI', href: '#ai' },
+    { label: '怎么替我打', href: '#features' },
+    { label: '使用场景', href: '#profiles' },
+    { label: 'GitHub', href: 'https://github.com/Larkspur-Wang/easyinput_landing_page' },
     { label: '下载', href: '#download' },
   ];
 
@@ -35,7 +35,8 @@ export default function Navbar() {
             <path d="M9 10h.01" />
             <path d="M15 10h.01" />
           </svg>
-          <span>Easy Input</span>
+          <span>一字不打</span>
+          <span className="text-[#5c5f66] text-xs font-normal hidden sm:inline">Easy Input</span>
         </a>
 
         <div className="hidden md:flex items-center gap-8 text-[13px] text-[#8a8a8a]">
@@ -54,7 +55,7 @@ export default function Navbar() {
           href="#download"
           className="hidden md:inline-flex items-center gap-2 px-5 py-2 rounded-full bg-white text-black text-sm font-medium hover:bg-white/90 transition-all hover:scale-[1.02] active:scale-[0.98]"
         >
-          下载 macOS 版
+          安排一下
         </a>
       </div>
     </nav>

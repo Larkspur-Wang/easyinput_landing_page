@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Easy Input — 开口就能输入",
-  description: "桌面语音转文字输入工具，全局快捷键 + 云端识别 + 跨应用文本注入",
+  title: "一字不打 - Easy Input",
+  description: "重复输入不用本人到场。Easy Input 把常用短语、模板片段和快捷动作放进你的输入层。",
 };
 
 export default function RootLayout({

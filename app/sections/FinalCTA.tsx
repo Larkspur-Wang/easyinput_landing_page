@@ -8,10 +8,11 @@ export default function FinalCTA() {
           <div className="reveal">
             <p className="text-[#5c5f66] text-xs font-mono tracking-widest uppercase mb-4">准备好了？</p>
             <h2 className="text-3xl md:text-4xl font-semibold tracking-tight text-gradient-heading mb-3">
-              开口就能输入
+              从今天开始，<br className="md:hidden" />一字不打。
             </h2>
             <p className="text-[#8a8a8a] text-sm mb-8 max-w-md">
-              Easy Input macOS 版现已发布，免费下载体验。Apple Silicon & Intel 双架构支持。
+              该说的话一句不少，该敲的字一个不敲。<br />
+              把重复输入交给 Easy Input。
             </p>
             <div className="w-full max-w-lg">
               <div className="flex flex-col sm:flex-row gap-3 items-center justify-center">
@@ -24,10 +25,18 @@ export default function FinalCTA() {
                     <polyline points="7 10 12 15 17 10" />
                     <line x1="12" y1="15" x2="12" y2="3" />
                   </svg>
-                  下载 macOS 版
+                  开始不打字
+                </a>
+                <a
+                  href="https://github.com/Larkspur-Wang/easyinput_landing_page"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="px-8 py-3 rounded-full border border-[rgba(255,255,255,0.2)] text-[#f5f5f5] font-medium text-sm hover:bg-white/5 transition-all whitespace-nowrap text-center inline-flex items-center gap-2"
+                >
+                  去 GitHub 看看
                 </a>
               </div>
-              <p className="text-xs text-[#5c5f66] mt-4">macOS 13.0+ · Apple Silicon & Intel · 约 45 MB</p>
+              <p className="text-xs text-[#5c5f66] mt-4">重复输入不用本人到场。</p>
             </div>
           </div>
         </div>

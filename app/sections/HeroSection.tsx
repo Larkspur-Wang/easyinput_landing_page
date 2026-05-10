@@ -4,7 +4,11 @@ import { useEffect, useRef, useState } from 'react';
 
 export default function HeroSection() {
   const [typedText, setTypedText] = useState('');
-  const texts = ['按住 Option + Space，开始说话...', '松开手指，文字自动注入', '燕峰我们今天下午四点半开项目进度会吧'];
+  const texts = [
+    '常用回复，快捷键一键上屏',
+    '模板片段，不用每天手搓',
+    '重复输入不用本人到场',
+  ];
   const tiRef = useRef(0);
   const ciRef = useRef(0);
   const delRef = useRef(false);
@@ -63,11 +67,21 @@ export default function HeroSection() {
           </svg>
         </div>
 
-        <h1 className="text-4xl md:text-5xl font-bold tracking-tight text-gradient-heading mb-2 text-center animate-fade-in-up" style={{ animationDelay: '0.1s' }}>
-          开口就能输入
+        {/* Eyebrow */}
+        <p className="text-[#14e6d1] text-sm font-mono tracking-widest mb-3 animate-fade-in-up" style={{ animationDelay: '0.05s' }}>
+          Easy Input 现在叫「一字不打」
+        </p>
+
+        {/* Title */}
+        <h1 className="text-4xl md:text-5xl font-bold tracking-tight text-gradient-heading mb-4 text-center animate-fade-in-up" style={{ animationDelay: '0.1s' }}>
+          一字不打，<br className="md:hidden" />话也能说完。
         </h1>
-        <p className="text-sm md:text-base text-[#8a8a8a] text-center mb-10 tracking-wide italic animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
-          桌面语音转文字输入工具，全局快捷键 + 云端识别 + 跨应用文本注入
+
+        {/* Subtitle */}
+        <p className="text-sm md:text-base text-[#8a8a8a] text-center mb-4 max-w-lg tracking-wide animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
+          我不是不会打字，是这点破字不配我亲自打。<br className="hidden md:block" />
+          把常用短语、模板片段和快捷动作放进你的输入层。<br />
+          重复的话，一键上屏。
         </p>
 
         {/* Terminal */}
@@ -91,10 +105,21 @@ export default function HeroSection() {
               <polyline points="7 10 12 15 17 10" />
               <line x1="12" y1="15" x2="12" y2="3" />
             </svg>
-            下载 macOS 版本
+            开始不打字
           </a>
-          <p className="text-xs text-[#5c5f66]">专为 macOS 优化 · Apple Silicon & Intel</p>
+          <a href="#features" className="px-8 py-3 rounded-full border border-[rgba(255,255,255,0.2)] text-[#f5f5f5] font-medium text-sm hover:bg-white/5 transition-all whitespace-nowrap text-center">
+            看看它怎么替我打
+          </a>
         </div>
+
+        <p className="text-xs text-[#5c5f66] mt-4 animate-fade-in-up" style={{ animationDelay: '0.5s' }}>
+          开源 / 本地优先 / 快捷唤起 / 跨应用输入
+        </p>
+
+        {/* Trust line */}
+        <p className="text-sm text-[#8a8a8a] mt-8 italic animate-fade-in-up" style={{ animationDelay: '0.6s' }}>
+          重复输入不用本人到场。
+        </p>
       </div>
 
       {/* Scroll indicator */}
